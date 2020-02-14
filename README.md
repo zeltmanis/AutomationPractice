@@ -2,7 +2,7 @@
 
 Automation Practice using Selenium WebDriver in C#
 
-This repository contains WebDriver code for automation tets.
+This repository contains WebDriver code for automation test.
 
 Note:
 First test scenario is fully created and runs.
@@ -35,7 +35,7 @@ Select > Online
 Search for "NUnit 3 Test Adapter" and install it
 
 Install Nuget package
-Right-click on your project and click “Manage NuGet Packages”.
+Right-click on your project and click â€œManage NuGet Packagesâ€.
 Search for "Microsoft.Extensions.Configuration.UserSecrets" and install it
 Search for "System.Diagnostics.Contracts" and install it
 Search for "NUnit" Framework and install it
