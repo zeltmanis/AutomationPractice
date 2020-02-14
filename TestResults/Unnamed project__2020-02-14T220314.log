@@ -1,0 +1,78 @@
+﻿2020-02-14T22:03:14.1906569+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-02-14T22:03:14.1906569+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.48 in Framework clr40 in x86 mode execution started
+2020-02-14T22:03:14.1906569+02:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\ezeltmanis\source\repos\AutomationPractice\AutomationPractice\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-02-14T22:03:14.2466547+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\ezeltmanis\source\repos\AutomationPractice\AutomationPractice\bin\Debug\AutomationPractice.dll
+2020-02-14T22:03:14.2476549+02:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\ezeltmanis\source\repos\AutomationPractice\TestResults" (default)
+2020-02-14T22:03:14.2476549+02:00;VSTestExecutionThread;Info;Profile: 
+2020-02-14T22:03:14.2676560+02:00;VSTestExecutionThread;Info;Log file path: C:\Users\ezeltmanis\source\repos\AutomationPractice\TestResults\Unnamed project__2020-02-14T220314.log
+2020-02-14T22:03:14.2966521+02:00;Thread#13;Info;Checking license
+2020-02-14T22:03:14.3036539+02:00;Thread#13;Info;License check completed
+2020-02-14T22:03:14.3036539+02:00;Thread#13;Info;starting test run
+2020-02-14T22:03:14.3136639+02:00;Thread#13;Info;Discovering target: Default
+2020-02-14T22:03:14.3146612+02:00;Thread#13;Info;Discovering tests from assembly: C:\Users\ezeltmanis\source\repos\AutomationPractice\AutomationPractice\bin\Debug\AutomationPractice.dll
+2020-02-14T22:03:14.6836729+02:00;Thread#13;Info;Discovered tests from assembly: C:\Users\ezeltmanis\source\repos\AutomationPractice\AutomationPractice\bin\Debug\AutomationPractice.dll
+2020-02-14T22:03:14.6846585+02:00:Test Suite Dump
+2020-02-14T22:03:14.6856537+02:00:#0: Unnamed project/ - 
+2020-02-14T22:03:14.6856537+02:00:#1: Default - 
+2020-02-14T22:03:14.6856537+02:00:#2: AutomationPractice - 
+2020-02-14T22:03:14.6856537+02:00:#3: OnlineShop - 
+2020-02-14T22:03:14.7196525+02:00:#4: Account creation - TestAssembly:AutomationPractice/Feature:OnlineShop/Scenario:Account+creation
+2020-02-14T22:03:14.7196525+02:00:End: Test Suite Dump
+2020-02-14T22:03:14.7376519+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-02-14T22:03:14.7406539+02:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-02-14T22:03:14.7406539+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-02-14T22:03:14.7436545+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-02-14T22:03:14.7436545+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-02-14T22:03:14.7436545+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-02-14T22:03:14.7436545+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-02-14T22:03:14.7446553+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-02-14T22:03:14.7456541+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-02-14T22:03:14.7476542+02:00:Thread #0: creating new test thread executor for AutomationPractice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-02-14T22:03:14.7496566+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-02-14T22:03:14.7526544+02:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-02-14T22:03:14.7536539+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-02-14T22:03:15.0726545+02:00:Thread#0:T:-> Loading plugin C:\Users\ezeltmanis\source\repos\AutomationPractice\AutomationPractice\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-02-14T22:03:15.0806542+02:00:Thread#0:T:-> Using default config
+2020-02-14T22:03:16.4849608+02:00:Thread#0: Test #4/0 is started on thread #0
+2020-02-14T22:03:18.9479583+02:00:Thread#0:B:Given I am in Sign In page
+2020-02-14T22:03:26.8392706+02:00:Thread#0:T:done: OnlineShopSteps.GivenIAmInSignInPage() (7.8s)
+2020-02-14T22:03:26.8412825+02:00:Thread#0:B:When I enter email in Create New Account section
+2020-02-14T22:03:29.4430724+02:00:Thread#0:T:done: OnlineShopSteps.WhenIEnterEmailInCreateNewAccountSection() (2.6s)
+2020-02-14T22:03:29.4440602+02:00:Thread#0:B:And I enter valid account details
+2020-02-14T22:03:32.3922318+02:00:Thread#0:T:done: OnlineShopSteps.WhenIEnterValidAccountDetails() (2.9s)
+2020-02-14T22:03:32.3922318+02:00:Thread#0:B:And click on Register button
+2020-02-14T22:03:34.2299085+02:00:Thread#0:T:done: OnlineShopSteps.WhenClickOnRegisterButton() (1.8s)
+2020-02-14T22:03:34.2299085+02:00:Thread#0:B:And My Account page is opened
+2020-02-14T22:03:34.4353840+02:00:Thread#0:T:done: OnlineShopSteps.WhenMyAccountPageIsOpened() (0.2s)
+2020-02-14T22:03:34.4353840+02:00:Thread#0:B:And I click on My Personal Information button
+2020-02-14T22:03:35.6541497+02:00:Thread#0:T:done: OnlineShopSteps.WhenIClickOnMyPersonalInformationButton() (1.2s)
+2020-02-14T22:03:35.6551554+02:00:Thread#0:B:Then Your Personal Information page is opened
+2020-02-14T22:03:35.7542258+02:00:Thread#0:T:done: OnlineShopSteps.ThenYourPersonalInformationPageIsOpened() (0.1s)
+2020-02-14T22:03:35.7552288+02:00:Thread#0:B:And correct personal information is displayed
+2020-02-14T22:03:35.8212977+02:00:Thread#0:T:done: OnlineShopSteps.ThenCorrectPersonalInformationIsDisplayed() (0.1s)
+2020-02-14T22:03:35.8364656+02:00:Thread#0:Scheduler: get next test for thread 0
+2020-02-14T22:03:35.8364656+02:00:Thread#:Scheduler: at the end of normal test queue
+2020-02-14T22:03:35.8364656+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-02-14T22:03:35.8364656+02:00:Thread#0:Scheduler: No more tests for thread
+2020-02-14T22:03:38.3464249+02:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 21.8594034 seconds
+2020-02-14T22:03:38.3694167+02:00:Trying to cancel thread
+2020-02-14T22:03:38.3694167+02:00:Thread cancelled
+2020-02-14T22:03:38.3784152+02:00:Thread#-1:Scheduler: get next test for thread -1
+2020-02-14T22:03:38.3784152+02:00:Thread#:Scheduler: at the end of normal test queue
+2020-02-14T22:03:38.3784152+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-02-14T22:03:38.3794160+02:00;Thread#13;Info;test run finished
+2020-02-14T22:03:38.3794160+02:00;Thread#13;Info;publishing test results
+2020-02-14T22:03:38.4294159+02:00;Thread#13;Info;test results published
+2020-02-14T22:03:38.4294159+02:00;Thread#13;Info;generating reports
+2020-02-14T22:03:38.5284250+02:00;Thread#13;Info;Starting external report generation process
+2020-02-14T22:03:40.0726149+02:00;Thread#13;Info;Successfully generated reports.
+2020-02-14T22:03:40.0746172+02:00;Thread#13;Info;Successfully generated reports
+2020-02-14T22:03:40.0826176+02:00:Total: 1
+2020-02-14T22:03:40.0846153+02:00:Succeeded: 1
+2020-02-14T22:03:40.0846153+02:00:Ignored: 0
+2020-02-14T22:03:40.0856155+02:00:Pending: 0
+2020-02-14T22:03:40.0856155+02:00:Skipped: 0
+2020-02-14T22:03:40.0856155+02:00:Failed: 0
+2020-02-14T22:03:40.0946266+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-02-14T22:03:40.0946266+02:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\ezeltmanis\source\repos\AutomationPractice\TestResults\Unnamed project__2020-02-14T220314.html'
+========== End of log file ==========
